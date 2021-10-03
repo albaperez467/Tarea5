@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="./estilos.css"/>
+        <title>Conversión de tipos</title>
+    </head>
+    <body>
+        <header>
+            <h1>Decimal, Binario, Octal y Hexadecimal</h1>
+        </header>
+        <section class="article2">
+            <div>
+                <p>Conversión de tipos</p>
+            </div>
+            <div>
+                <h3>Conversión entre sistemas de numeración</h3>
+                Número:
+                <input type="text" id="numero"/>
+                <br>
+                <h3>Elige un tipo de conversión</h3>
+                <select id="modo">
+                    <option value="0"></option>
+                    <optgroup label="De DECIMAL a">
+                        <option value="1">Binario</option>
+                        <option value="2">Octal</option>
+                        <option value="3">Hexadecimal</option>
+                    </optgroup>
+                    <optgroup label="De _ a DECIMAL">
+                        <option value="4">Binario</option>
+                        <option value="5">Octal</option>
+                        <option value="6">Hexadecimal</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                Resultado:
+                <input type="text" id="resultado"/>
+            </div>
+        </section>
+        <footer>
+            <p>CIFP Santa Catalina DAW curso 2020-2021</p>
+        </footer>
+        <script src="./conversion.js"></script>
+    </body>
+</html>
